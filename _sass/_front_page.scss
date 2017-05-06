@@ -136,8 +136,6 @@ h2 {
 /*** Activity Feed ***/
 
 .activity {
-  margin-top: $spacing-unit * 3;
-  text-align: center;
   margin-left: 0;
 
   .item {
@@ -148,7 +146,6 @@ h2 {
     position: relative;
     margin-bottom: 25px;
     margin-right: 15px;
-    display: inline-block;
 
     a.avatar {
       width: 24px;
