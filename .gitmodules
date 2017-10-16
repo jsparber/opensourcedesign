@@ -3,13 +3,13 @@
 	url = https://github.com/opensourcedesign/jobs.git
 [submodule "_events"]
 	path = _events
-	url = git@github.com:opensourcedesign/events.git
+	url = https://github.com/opensourcedesign/events.git
 [submodule "_organization"]
 	path = _organization
-	url = git@github.com:opensourcedesign/organization.git
+	url = https://github.com/opensourcedesign/organization.git
 [submodule "_patterns"]
 	path = _patterns
-	url = git@github.com:opensourcedesign/patterns.git
+	url = https://github.com/opensourcedesign/patterns.git
 [submodule "_talks"]
 	path = _talks
-	url = git@github.com:opensourcedesign/talks.git
+	url = https://github.com/opensourcedesign/talks.git
