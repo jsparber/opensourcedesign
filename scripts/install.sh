@@ -71,15 +71,9 @@ do
 	if [[ ! -d "_${repo}" ]]; then
 		repo_url="git@github.com:opensourcedesign/${repo}.git"
 		echo -e "\e[36m 1. Getting code at $repo_url"
-		git clone $repo_url
-		echo -e "\e[94m 2. Moving to \"_${repo}\""
-		mv $repo "_${repo}"
-		echo -e "\e[34m 3. Done installing \"$repo\" repo"
-	else
-		echo -e "\e[34m The \"$repo\" repo already installed"
-	fi
-	echo -e "\e[94m$line"
-	sleep 1
+		git submodule add $repo_url "_${repo}"
+    sleep 1
+  fi
 done
 
 # Print output
