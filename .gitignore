@@ -3,7 +3,6 @@ _site
 .editorconfig
 Gemfile.lock
 _events/
-_jobs/
 _organization/
 _patterns/
 _talks/
